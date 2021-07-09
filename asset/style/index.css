@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.navbar{
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.navbar a{
+    color: white;
+}
+#navbarSupportedContent{
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    border: 1px solid #fffdfdba!important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+    background-color: white;
+    height: 2px;
+}
+
+.fas{
+    background-color: #45b5bb;
+    width: 100%;
+}
+.card-body{
+    background-color: #45b5bb;
+}
+footer{
+    background-color: #45b5bb;
+}
+
+@media screen and (max-width: 400px){
+
+    .parrafoIntro{
+        display: none;
+    }
+    .card{
+        width: 100% !important;
+    }
+}
+
+/* typeform */
